@@ -1,0 +1,26 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Air rifle product placeholder</title>
+  <desc id="desc">Stylised air rifle silhouette on a dark industrial background.</desc>
+  <defs>
+    <linearGradient id="bgR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="12" fill="url(#bgR)"/>
+  <g opacity="0.25" stroke="#1f2937" stroke-width="1">
+    <path d="M32 80H608M32 152H608M32 224H608M32 296H608"/>
+  </g>
+  <g transform="translate(60 170)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 32H486" stroke="url(#rail)" stroke-width="6"/>
+    <path d="M40 50H210L240 32H380L408 50H486" stroke="#e5e7eb" stroke-width="4"/>
+    <path d="M72 68H162V106H72Z" stroke="#9ca3af" stroke-width="3"/>
+    <path d="M170 68H205L214 96H170Z" stroke="#9ca3af" stroke-width="3"/>
+    <circle cx="456" cy="92" r="24" stroke="#111827" stroke-width="10"/>
+    <circle cx="456" cy="92" r="18" stroke="#38bdf8" stroke-width="4"/>
+  </g>
+</svg>

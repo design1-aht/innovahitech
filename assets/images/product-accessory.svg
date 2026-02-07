@@ -1,0 +1,25 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Accessory product placeholder</title>
+  <desc id="desc">Abstract scope and support accessory illustration on a dark background.</desc>
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="scope" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="12" fill="url(#bgA)"/>
+  <g opacity="0.2" stroke="#1f2937" stroke-width="1">
+    <path d="M36 80H604M36 152H604M36 224H604M36 296H604"/>
+  </g>
+  <g transform="translate(90 150)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="30" width="220" height="34" rx="17" stroke="url(#scope)" stroke-width="4"/>
+    <circle cx="70" cy="47" r="14" stroke="#e5e7eb" stroke-width="3"/>
+    <circle cx="230" cy="47" r="14" stroke="#e5e7eb" stroke-width="3"/>
+    <rect x="96" y="78" width="108" height="18" rx="4" stroke="#e5e7eb" stroke-width="3"/>
+    <path d="M96 96L76 126M204 96L224 126" stroke="#9ca3af" stroke-width="4"/>
+  </g>
+</svg>

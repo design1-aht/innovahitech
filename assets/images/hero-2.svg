@@ -1,0 +1,35 @@
+<svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Manufacturing hero graphic</title>
+  <desc id="desc">Abstract illustration of CNC machining and barrel rifling on a dark tactical background.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="cnc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg2)"/>
+  <g opacity="0.35" stroke="#1f2937" stroke-width="1">
+    <circle cx="160" cy="140" r="80" fill="none"/>
+    <circle cx="780" cy="380" r="110" fill="none"/>
+    <path d="M0 280H960M0 340H960M80 0V540M880 0V540"/>
+  </g>
+  <g transform="translate(180 180)">
+    <circle cx="100" cy="90" r="70" fill="#020617" stroke="#1f2937" stroke-width="4"/>
+    <circle cx="100" cy="90" r="46" fill="none" stroke="url(#cnc)" stroke-width="5"/>
+    <path d="M100 34V20M100 160V146M44 90H30M170 90H156M57 57L47 47M153 133L143 123M57 123L47 133M153 47L143 57" stroke="#4ade80" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(420 210)" stroke-linecap="round">
+    <rect x="0" y="40" width="320" height="44" rx="10" fill="#020617" stroke="#1f2937"/>
+    <path d="M14 62H306" stroke="#e5e7eb" stroke-width="4"/>
+    <path d="M40 48V76" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M90 48V76" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M140 48V76" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M190 48V76" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M240 48V76" stroke="#38bdf8" stroke-width="4"/>
+    <path d="M290 48V76" stroke="#38bdf8" stroke-width="4"/>
+  </g>
+</svg>

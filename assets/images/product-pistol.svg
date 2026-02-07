@@ -1,0 +1,25 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Air pistol product placeholder</title>
+  <desc id="desc">Stylised air pistol silhouette on a dark industrial background.</desc>
+  <defs>
+    <linearGradient id="bgP" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="slide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="12" fill="url(#bgP)"/>
+  <g opacity="0.25" stroke="#1f2937" stroke-width="1">
+    <path d="M40 96H600M40 168H600M40 240H600M40 312H600"/>
+  </g>
+  <g transform="translate(120 160)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="26" width="220" height="40" rx="6" fill="#020617" stroke="url(#slide)" stroke-width="4"/>
+    <rect x="76" y="66" width="84" height="62" rx="12" stroke="#e5e7eb" stroke-width="4"/>
+    <path d="M124 66V40" stroke="#e5e7eb" stroke-width="4"/>
+    <path d="M260 40H320L332 70H292" stroke="#e5e7eb" stroke-width="4"/>
+    <path d="M108 128L96 156" stroke="#9ca3af" stroke-width="4"/>
+  </g>
+</svg>
