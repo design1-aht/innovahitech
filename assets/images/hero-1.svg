@@ -1,5 +1,5 @@
 <svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Innova Hi-Tech hero graphic</title>
+  <title id="title">invoahitech hero graphic</title>
   <desc id="desc">Abstract tactical background with a stylised air rifle silhouette on a dark grid.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -26,7 +26,7 @@
   </g>
   <rect x="640" y="80" width="220" height="60" rx="10" fill="#020617" stroke="#1f2937"/>
   <text x="655" y="112" fill="#e5e7eb" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">
-    Innova Hi-Tech
+    invoahitech
   </text>
   <text x="655" y="134" fill="#9ca3af" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">
     Precision Air Guns " Made in India
