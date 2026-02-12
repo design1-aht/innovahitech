@@ -1,0 +1,69 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Company Building Illustration</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1f3a"/>
+      <stop offset="1" stop-color="#0f1419"/>
+    </linearGradient>
+    <linearGradient id="buildingGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Mountains background -->
+  <polygon points="0,200 80,120 160,180 240,100 300,180 300,300 0,300" fill="#0f1419" opacity="0.5"/>
+  
+  <!-- Sun/sky -->
+  <circle cx="250" cy="40" r="30" fill="#fbbf24" opacity="0.3"/>
+  
+  <!-- Factory/Industrial building -->
+  <g transform="translate(60, 80)">
+    <!-- Main structure -->
+    <rect x="20" y="60" width="140" height="100" fill="url(#buildingGrad)" stroke="#38bdf8" stroke-width="2.5"/>
+    
+    <!-- Roof -->
+    <polygon points="20,60 100,20 180,60" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+    
+    <!-- Windows grid -->
+    <g fill="#0ea5e9" opacity="0.6">
+      <rect x="30" y="75" width="15" height="15"/>
+      <rect x="50" y="75" width="15" height="15"/>
+      <rect x="70" y="75" width="15" height="15"/>
+      <rect x="90" y="75" width="15" height="15"/>
+      <rect x="110" y="75" width="15" height="15"/>
+      <rect x="130" y="75" width="15" height="15"/>
+      <rect x="150" y="75" width="15" height="15"/>
+      
+      <rect x="30" y="100" width="15" height="15"/>
+      <rect x="50" y="100" width="15" height="15"/>
+      <rect x="70" y="100" width="15" height="15"/>
+      <rect x="90" y="100" width="15" height="15"/>
+      <rect x="110" y="100" width="15" height="15"/>
+      <rect x="130" y="100" width="15" height="15"/>
+      <rect x="150" y="100" width="15" height="15"/>
+      
+      <rect x="30" y="125" width="15" height="15"/>
+      <rect x="50" y="125" width="15" height="15"/>
+      <rect x="70" y="125" width="15" height="15"/>
+      <rect x="90" y="125" width="15" height="15"/>
+      <rect x="110" y="125" width="15" height="15"/>
+      <rect x="130" y="125" width="15" height="15"/>
+      <rect x="150" y="125" width="15" height="15"/>
+    </g>
+    
+    <!-- Smoke stacks -->
+    <g stroke="#64748b" stroke-width="3" fill="none">
+      <line x1="50" y1="20" x2="50" y2="0"/>
+      <line x1="150" y1="20" x2="150" y2="0"/>
+    </g>
+    
+    <!-- Flag -->
+    <rect x="145" y="5" width="3" height="25" fill="#64748b"/>
+    <polygon points="148,8 148,18 158,13" fill="#10b981"/>
+  </g>
+  
+  <!-- Text label -->
+  <text x="150" y="260" text-anchor="middle" fill="#9ca3af" font-family="system-ui" font-size="14" font-weight="600">Made in India</text>
+</svg>
